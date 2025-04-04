@@ -24,3 +24,37 @@ body {
 #logo {
   max-width: 150px;
 }
+
+#menu {
+  display:flex;
+  gap: 20px;
+  list-style: none;
+}
+
+#menu a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#menu a:hover {
+  color: #FFFF33;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.imagem{
+  max-width: 400px;
+  width: 100%;
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+}
